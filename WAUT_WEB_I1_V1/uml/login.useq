@@ -1,0 +1,35 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<sequence-diagram version="1.1.9" icons="true">  
+  <object id="1" language="java" name="waut.controler.UserInfoControlerForward" project="WAUT_WEB_I1_V1" 
+    file="/WAUT_WEB_I1_V1/src/waut/controler/UserInfoControlerForward.java" binary="false" 
+    label="userInfoControlerForward" type="class" autoSize="true">    
+    <position height="-1" width="-1" x="72" y="0"/>    
+    <execution id="2">      
+      <position height="105" width="171" x="5" y="79"/>    
+    </execution>  
+  </object>  
+  <object id="5" language="java" name="waut.controler.UserInfoControler" project="WAUT_WEB_I1_V1" 
+    file="/WAUT_WEB_I1_V1/src/waut/controler/UserInfoControler.java" binary="false" label="userInfoControler" 
+    type="class" autoSize="true">    
+    <position height="-1" width="-1" x="257" y="0"/>    
+    <execution id="4">      
+      <position height="63" width="124" x="180" y="100"/>    
+    </execution>  
+  </object>  
+  <object id="8" language="java" name="waut.dao.UserInfoDAO" project="WAUT_WEB_I1_V1" 
+    file="/WAUT_WEB_I1_V1/src/waut/dao/UserInfoDAO.java" binary="false" label="userinfoDAO" type="class" autoSize="true">    
+    <position height="0" width="0" x="0" y="0"/>    
+    <execution id="7">      
+      <position height="21" width="0" x="0" y="121"/>    
+    </execution>  
+  </object>  
+  <message id="3" operation="login(java.lang.String,java.lang.String):waut.bean.UserInfoBean" asynchronous="false">    
+    <end type="SOURCE" refId="2"/>    
+    <end type="TARGET" refId="4"/>  
+  </message>  
+  <message id="6" operation="getDBByIdAndPw(java.lang.String,java.lang.String):waut.bean.UserInfoBean" 
+    asynchronous="false">    
+    <end type="SOURCE" refId="4"/>    
+    <end type="TARGET" refId="7"/>  
+  </message>
+</sequence-diagram>

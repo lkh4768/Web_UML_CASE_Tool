@@ -1,0 +1,95 @@
+#project-content {
+	position: fixed;
+	padding-left: 30px;
+	padding-right: 30px;
+	width: inherit;
+	top: 180px;
+	bottom: 0px;
+	overflow: auto;
+	position: fixed;
+}
+
+.project-entity-panel {
+	height: 250px;
+	width: 200px;
+	margin: 0px 10px 10px 0px;
+	border: 0px;
+	display: inline-block;
+}
+
+.project-entity-panel-btn {
+	padding: 0px;
+}
+
+.project-entity-panel-body {
+	height: 170px;
+	border: 1px solid #9c9d9d;
+	border-bottom: 0px;
+	padding: 0px;
+}
+
+.project-entity-shared-img {
+	height: 28px;
+	width: 28px;
+	margin-left: 5px;
+	margin-top: 5px;
+}
+
+.project-entity-check-btn {
+	border: 2px solid #9c9d9d;
+	height: 28px;
+	width: 28px;
+	padding: 0px;
+	float: right;
+	top: 5px;
+	margin-right: 5px;
+	margin-top: 5px;
+}
+
+.project-entity-check-img {
+	position: relative;
+	width: 20px;
+}
+
+.project-entity-locked-img {
+	position: relative;
+	height: 28px;
+	width: 28px;
+	float: right;
+	top: 105px;
+	margin-right: 5px;
+}
+
+.project-file-panel-body {
+	padding: 0px;
+}
+
+.project-entity-panel-footer {
+	height: 80px;
+	background-color: #4fa069;
+	color: #ffffff;
+}
+
+.project-entity-name {
+	text-align: center;
+}
+
+.project-entity-properties {
+	padding-top: 10px;
+}
+
+.project-entity-owner {
+	display: inline;
+	float: left;
+	padding-top: 3px;
+}
+
+.project-entity-menu {
+	display: inline;
+	float: right;
+}
+
+.project-entity-menu-btn-img {
+	width: 30px;
+	margin-left: 10px;
+}

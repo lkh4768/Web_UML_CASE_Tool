@@ -1,0 +1,15 @@
+#project-title {
+	width: 100%;
+	height: 50px;
+	border-bottom: 1px solid #d6d5d6;
+}
+
+#project-title-label {
+	padding-left: 30px;
+	padding-top: 12px;
+	padding-bottom: 12px;
+	margin: 0px;
+	padding-top: 12px;
+	font-weight: 600;
+	color: #767777;
+}

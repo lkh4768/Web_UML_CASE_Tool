@@ -1,0 +1,13 @@
+#project-container {
+	position: absolute;
+	width: 100%;
+	padding-top: 50px;
+	overflow: hidden;
+}
+
+#project-explorer-container {
+	padding-top: 10px;
+	overflow: auto;
+	background-color: #fafafb;
+	border-right: 1px solid #d6d5d6;
+}

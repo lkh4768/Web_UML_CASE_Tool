@@ -1,0 +1,235 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<sequence-diagram version="1.1.9" icons="true">  
+  <object id="1" language="java" name="waut.controler.ProjectControlerForward" project="WAUT_WEB_I1_V1" 
+    file="/WAUT_WEB_I1_V1/src/waut/controler/ProjectControlerForward.java" binary="false" 
+    label="projectControlerForward" type="class" autoSize="true">    
+    <position height="-1" width="-1" x="182" y="0"/>    
+    <execution id="2">      
+      <position height="1049" width="164" x="5" y="99"/>    
+    </execution>  
+  </object>  
+  <object id="5" language="java" name="waut.controler.FolderControler" project="WAUT_WEB_I1_V1" 
+    file="/WAUT_WEB_I1_V1/src/waut/controler/FolderControler.java" binary="false" label="folderControler" type="class" 
+    autoSize="true">    
+    <position height="-1" width="-1" x="315" y="0"/>    
+    <execution id="4">      
+      <position height="1007" width="111" x="173" y="120"/>    
+    </execution>    
+    <execution id="39">      
+      <position height="21" width="0" x="0" y="834"/>    
+    </execution>    
+    <execution id="49">      
+      <position height="21" width="0" x="0" y="1054"/>    
+    </execution>  
+  </object>  
+  <object id="52" language="java" name="waut.bean.FolderInfoBean" project="WAUT_WEB_I1_V1" 
+    file="/WAUT_WEB_I1_V1/src/waut/bean/FolderInfoBean.java" binary="false" label="folderInfoBean" type="class" 
+    autoSize="true">    
+    <position height="0" width="0" x="0" y="0"/>    
+    <execution id="7">      
+      <position height="21" width="0" x="0" y="141"/>    
+    </execution>    
+    <execution id="9">      
+      <position height="21" width="0" x="0" y="183"/>    
+    </execution>    
+    <execution id="11">      
+      <position height="21" width="0" x="0" y="225"/>    
+    </execution>  
+  </object>  
+  <object id="53" language="java" name="java.io.File" project="WAUT_WEB_I1_V1" 
+    file="C:/Program Files/Java/jre1.8.0_45/lib/rt.jar" binary="true" label="desti" type="class" autoSize="true">    
+    <position height="0" width="0" x="0" y="0"/>    
+    <execution id="13">      
+      <position height="21" width="0" x="0" y="267"/>    
+    </execution>    
+    <execution id="15">      
+      <position height="21" width="0" x="0" y="309"/>    
+    </execution>  
+  </object>  
+  <object id="54" language="java" name="waut.controler.FileControler" project="WAUT_WEB_I1_V1" 
+    file="/WAUT_WEB_I1_V1/src/waut/controler/FileControler.java" binary="false" label="fc" type="class" autoSize="true">    
+    <position height="0" width="0" x="0" y="0"/>    
+    <execution id="17">      
+      <position height="21" width="0" x="0" y="351"/>    
+    </execution>    
+    <execution id="21">      
+      <position height="21" width="0" x="0" y="435"/>    
+    </execution>    
+    <execution id="25">      
+      <position height="21" width="0" x="0" y="519"/>    
+    </execution>    
+    <execution id="31">      
+      <position height="21" width="0" x="0" y="645"/>    
+    </execution>  
+  </object>  
+  <object id="55" language="java" name="waut.dao.FolderInfoDAO" project="WAUT_WEB_I1_V1" 
+    file="/WAUT_WEB_I1_V1/src/waut/dao/FolderInfoDAO.java" binary="false" label="folderInfoDAO" type="class" 
+    autoSize="true">    
+    <position height="0" width="0" x="0" y="0"/>    
+    <execution id="19">      
+      <position height="21" width="0" x="0" y="393"/>    
+    </execution>  
+  </object>  
+  <object id="56" language="java" name="java.util.ArrayList" project="WAUT_WEB_I1_V1" 
+    file="C:/Program Files/Java/jre1.8.0_45/lib/rt.jar" binary="true" label="childrenFiles" type="class" autoSize="true">    
+    <position height="0" width="0" x="0" y="0"/>    
+    <execution id="23">      
+      <position height="21" width="0" x="0" y="477"/>    
+    </execution>    
+    <execution id="27">      
+      <position height="21" width="0" x="0" y="561"/>    
+    </execution>    
+    <execution id="33">      
+      <position height="21" width="0" x="0" y="687"/>    
+    </execution>  
+  </object>  
+  <object id="57" language="java" name="waut.bean.FileInfoBean" project="WAUT_WEB_I1_V1" 
+    file="/WAUT_WEB_I1_V1/src/waut/bean/FileInfoBean.java" binary="false" type="class" autoSize="true">    
+    <position height="0" width="0" x="0" y="0"/>    
+    <execution id="29">      
+      <position height="21" width="0" x="0" y="603"/>    
+    </execution>  
+  </object>  
+  <object id="58" language="java" name="waut.bean.FileInfoBean" project="WAUT_WEB_I1_V1" 
+    file="/WAUT_WEB_I1_V1/src/waut/bean/FileInfoBean.java" binary="false" type="class" autoSize="true">    
+    <position height="0" width="0" x="0" y="0"/>    
+    <execution id="35">      
+      <position height="21" width="0" x="0" y="729"/>    
+    </execution>  
+  </object>  
+  <object id="59" language="java" name="java.util.ArrayList" project="WAUT_WEB_I1_V1" 
+    file="C:/Program Files/Java/jre1.8.0_45/lib/rt.jar" binary="true" label="childrenFolders" type="class" 
+    autoSize="true">    
+    <position height="0" width="0" x="0" y="0"/>    
+    <execution id="37">      
+      <position height="21" width="0" x="0" y="771"/>    
+    </execution>    
+    <execution id="41">      
+      <position height="21" width="0" x="0" y="865"/>    
+    </execution>    
+    <execution id="45">      
+      <position height="21" width="0" x="0" y="949"/>    
+    </execution>  
+  </object>  
+  <object id="60" language="java" name="waut.bean.FolderInfoBean" project="WAUT_WEB_I1_V1" 
+    file="/WAUT_WEB_I1_V1/src/waut/bean/FolderInfoBean.java" binary="false" type="class" autoSize="true">    
+    <position height="0" width="0" x="0" y="0"/>    
+    <execution id="43">      
+      <position height="21" width="0" x="0" y="907"/>    
+    </execution>  
+  </object>  
+  <object id="61" language="java" name="waut.bean.FolderInfoBean" project="WAUT_WEB_I1_V1" 
+    file="/WAUT_WEB_I1_V1/src/waut/bean/FolderInfoBean.java" binary="false" type="class" autoSize="true">    
+    <position height="0" width="0" x="0" y="0"/>    
+    <execution id="47">      
+      <position height="21" width="0" x="0" y="991"/>    
+    </execution>  
+  </object>  
+  <object id="62" language="java" name="java.io.PrintStream" project="WAUT_WEB_I1_V1" 
+    file="C:/Program Files/Java/jre1.8.0_45/lib/rt.jar" binary="true" type="class" autoSize="true">    
+    <position height="0" width="0" x="0" y="0"/>    
+    <execution id="51">      
+      <position height="21" width="0" x="0" y="1085"/>    
+    </execution>  
+  </object>  
+  <message id="3" operation="exportFolder(java.lang.String,java.lang.String,java.lang.String,java.lang.String):boolean" 
+    asynchronous="false">    
+    <end type="SOURCE" refId="2"/>    
+    <end type="TARGET" refId="4"/>  
+  </message>  
+  <message id="6" operation="FolderInfoBean()" asynchronous="false">    
+    <end type="SOURCE" refId="4"/>    
+    <end type="TARGET" refId="7"/>  
+  </message>  
+  <message id="8" operation="setId(java.lang.String):void" asynchronous="false">    
+    <end type="SOURCE" refId="4"/>    
+    <end type="TARGET" refId="9"/>  
+  </message>  
+  <message id="10" operation="setName(java.lang.String):void" asynchronous="false">    
+    <end type="SOURCE" refId="4"/>    
+    <end type="TARGET" refId="11"/>  
+  </message>  
+  <message id="12" operation="File(java.lang.String)" asynchronous="false">    
+    <end type="SOURCE" refId="4"/>    
+    <end type="TARGET" refId="13"/>  
+  </message>  
+  <message id="14" operation="mkdirs():boolean" asynchronous="false">    
+    <end type="SOURCE" refId="4"/>    
+    <end type="TARGET" refId="15"/>  
+  </message>  
+  <message id="16" operation="FileControler()" asynchronous="false">    
+    <end type="SOURCE" refId="4"/>    
+    <end type="TARGET" refId="17"/>  
+  </message>  
+  <message id="18" operation="getDBFolderChildrenList(java.lang.String):java.util.ArrayList&lt;FolderInfoBean&gt;" 
+    asynchronous="false">    
+    <end type="SOURCE" refId="4"/>    
+    <end type="TARGET" refId="19"/>  
+  </message>  
+  <message id="20" operation="getFiles(java.lang.String):java.util.ArrayList&lt;FileInfoBean&gt;" asynchronous="false">    
+    <end type="SOURCE" refId="4"/>    
+    <end type="TARGET" refId="21"/>  
+  </message>  
+  <message id="22" operation="size():int" asynchronous="false">    
+    <end type="SOURCE" refId="4"/>    
+    <end type="TARGET" refId="23"/>  
+  </message>  
+  <message id="24" operation="storeFile(java.lang.String,java.lang.String,java.lang.String):boolean" 
+    asynchronous="false">    
+    <end type="SOURCE" refId="4"/>    
+    <end type="TARGET" refId="25"/>  
+  </message>  
+  <message id="26" operation="get(int):E" asynchronous="false">    
+    <end type="SOURCE" refId="4"/>    
+    <end type="TARGET" refId="27"/>  
+  </message>  
+  <message id="28" operation="getName():java.lang.String" asynchronous="false">    
+    <end type="SOURCE" refId="4"/>    
+    <end type="TARGET" refId="29"/>  
+  </message>  
+  <message id="30" operation="readFile(java.lang.String):java.lang.String" asynchronous="false">    
+    <end type="SOURCE" refId="4"/>    
+    <end type="TARGET" refId="31"/>  
+  </message>  
+  <message id="32" operation="get(int):E" asynchronous="false">    
+    <end type="SOURCE" refId="4"/>    
+    <end type="TARGET" refId="33"/>  
+  </message>  
+  <message id="34" operation="getId():java.lang.String" asynchronous="false">    
+    <end type="SOURCE" refId="4"/>    
+    <end type="TARGET" refId="35"/>  
+  </message>  
+  <message id="36" operation="size():int" asynchronous="false">    
+    <end type="SOURCE" refId="4"/>    
+    <end type="TARGET" refId="37"/>  
+  </message>  
+  <message id="38" operation="exportFolder(java.lang.String,java.lang.String,java.lang.String,java.lang.String):boolean" 
+    asynchronous="false">    
+    <end type="SOURCE" refId="4"/>    
+    <end type="TARGET" refId="39"/>  
+  </message>  
+  <message id="40" operation="get(int):E" asynchronous="false">    
+    <end type="SOURCE" refId="4"/>    
+    <end type="TARGET" refId="41"/>  
+  </message>  
+  <message id="42" operation="getId():java.lang.String" asynchronous="false">    
+    <end type="SOURCE" refId="4"/>    
+    <end type="TARGET" refId="43"/>  
+  </message>  
+  <message id="44" operation="get(int):E" asynchronous="false">    
+    <end type="SOURCE" refId="4"/>    
+    <end type="TARGET" refId="45"/>  
+  </message>  
+  <message id="46" operation="getName():java.lang.String" asynchronous="false">    
+    <end type="SOURCE" refId="4"/>    
+    <end type="TARGET" refId="47"/>  
+  </message>  
+  <message id="48" operation="zipFolder(java.lang.String,java.lang.String):void" asynchronous="false">    
+    <end type="SOURCE" refId="4"/>    
+    <end type="TARGET" refId="49"/>  
+  </message>  
+  <message id="50" operation="println(java.lang.String):void" asynchronous="false">    
+    <end type="SOURCE" refId="4"/>    
+    <end type="TARGET" refId="51"/>  
+  </message>
+</sequence-diagram>

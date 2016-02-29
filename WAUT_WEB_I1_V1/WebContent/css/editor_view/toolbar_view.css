@@ -1,0 +1,39 @@
+/*
+* toolbar
+*/
+#editor-toolbar {
+	position: absolute;
+	background-color: #F9F9FA;
+	width: 100%;
+	margin: 0px;
+	border-bottom: 1px solid #e7e6e6;
+	border-radius: 0px;
+}
+
+#editor-toolbar-inner {
+	padding: 0px;
+	padding-left: 5px;
+}
+
+#editor-toolbar>div>ul>li>img {
+	padding-top: 5px;
+	padding-bottom: 5px;
+	height: 61px;
+}
+
+#editor-toolbar>div>ul>li>a {
+	padding: 10px;
+	text-align: center;
+}
+
+#editor-toolbar>div>ul>li>a>i>img {
+	height: 25px;
+	text-align: center;
+}
+
+#editor-toolbar>div>ul>li>a>span {
+	display: block;
+	font-size: 11px;
+	color: #878787;
+	text-align: center;
+}

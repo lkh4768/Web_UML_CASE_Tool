@@ -1,0 +1,44 @@
+#index-container {
+	position: fixed;
+	width: 100%;
+	top: 50px;
+	bottom: 50px;
+	display: block;
+	overflow-x: hidden;
+	overflow-y: auto;
+	background-color: #f9f9fa;
+}
+
+#explanation {
+	padding: 60px;
+}
+
+.explanation-title {
+	padding: 20px;
+	text-align: center;
+	font-size: 15px;
+}
+
+#title-drawuml {
+	font-size: 20px;
+	font-weight: bold;
+	color: #108ca4;
+}
+
+.title-sub {
+	font-size: 17px;
+	font-weight: bold;
+	color: #108ca4;
+}
+
+.explanation-item {
+	text-align: center;
+}
+
+.explanation-item-img {
+	width: 200px;
+}
+
+.explanation-item-title {
+	margin: 10px;
+}

@@ -1,0 +1,96 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<sequence-diagram version="1.1.9" icons="true">  
+  <object id="1" language="java" name="waut.controler.ProjectControlerForward" project="WAUT_WEB_I1_V1" 
+    file="/WAUT_WEB_I1_V1/src/waut/controler/ProjectControlerForward.java" binary="false" 
+    label="projectControlerForward" type="class" autoSize="true">    
+    <position height="-1" width="-1" x="120" y="0"/>    
+    <execution id="2">      
+      <position height="461" width="164" x="5" y="99"/>    
+    </execution>  
+  </object>  
+  <object id="5" language="java" name="waut.controler.FileControler" project="WAUT_WEB_I1_V1" 
+    file="/WAUT_WEB_I1_V1/src/waut/controler/FileControler.java" binary="false" label="fileControler" type="class" 
+    autoSize="true">    
+    <position height="-1" width="-1" x="270" y="0"/>    
+    <execution id="4">      
+      <position height="419" width="95" x="173" y="120"/>    
+    </execution>    
+    <execution id="17">      
+      <position height="21" width="0" x="0" y="372"/>    
+    </execution>    
+    <execution id="21">      
+      <position height="21" width="0" x="0" y="466"/>    
+    </execution>  
+  </object>  
+  <object id="24" language="java" name="waut.bean.FileInfoBean" project="WAUT_WEB_I1_V1" 
+    file="/WAUT_WEB_I1_V1/src/waut/bean/FileInfoBean.java" binary="false" label="fileInfoBean" type="class" 
+    autoSize="true">    
+    <position height="0" width="0" x="0" y="0"/>    
+    <execution id="7">      
+      <position height="21" width="0" x="0" y="141"/>    
+    </execution>    
+    <execution id="9">      
+      <position height="21" width="0" x="0" y="183"/>    
+    </execution>    
+    <execution id="11">      
+      <position height="21" width="0" x="0" y="225"/>    
+    </execution>    
+    <execution id="13">      
+      <position height="21" width="0" x="0" y="267"/>    
+    </execution>    
+    <execution id="15">      
+      <position height="21" width="0" x="0" y="309"/>    
+    </execution>    
+    <execution id="19">      
+      <position height="21" width="0" x="0" y="403"/>    
+    </execution>  
+  </object>  
+  <object id="25" language="java" name="waut.dao.FileInfoDAO" project="WAUT_WEB_I1_V1" 
+    file="/WAUT_WEB_I1_V1/src/waut/dao/FileInfoDAO.java" binary="false" label="fileInfoDAO" type="class" autoSize="true">    
+    <position height="0" width="0" x="0" y="0"/>    
+    <execution id="23">      
+      <position height="21" width="0" x="0" y="497"/>    
+    </execution>  
+  </object>  
+  <message id="3" operation="resotreFile(java.lang.String,java.lang.String,java.lang.String):boolean" 
+    asynchronous="false">    
+    <end type="SOURCE" refId="2"/>    
+    <end type="TARGET" refId="4"/>  
+  </message>  
+  <message id="6" operation="FileInfoBean()" asynchronous="false">    
+    <end type="SOURCE" refId="4"/>    
+    <end type="TARGET" refId="7"/>  
+  </message>  
+  <message id="8" operation="setId(java.lang.String):void" asynchronous="false">    
+    <end type="SOURCE" refId="4"/>    
+    <end type="TARGET" refId="9"/>  
+  </message>  
+  <message id="10" operation="setName(java.lang.String):void" asynchronous="false">    
+    <end type="SOURCE" refId="4"/>    
+    <end type="TARGET" refId="11"/>  
+  </message>  
+  <message id="12" operation="setParentID(java.lang.String):void" asynchronous="false">    
+    <end type="SOURCE" refId="4"/>    
+    <end type="TARGET" refId="13"/>  
+  </message>  
+  <message id="14" operation="setDate(java.lang.String):void" asynchronous="false">    
+    <end type="SOURCE" refId="4"/>    
+    <end type="TARGET" refId="15"/>  
+  </message>  
+  <message id="16" operation="getNowDate():java.lang.String" asynchronous="false">    
+    <end type="SOURCE" refId="4"/>    
+    <end type="TARGET" refId="17"/>  
+  </message>  
+  <message id="18" operation="setDelete(boolean):void" asynchronous="false">    
+    <end type="SOURCE" refId="4"/>    
+    <end type="TARGET" refId="19"/>  
+  </message>  
+  <message id="20" operation="checkOverlappingName(waut.bean.FileInfoBean,boolean):boolean" asynchronous="false">    
+    <end type="SOURCE" refId="4"/>    
+    <end type="TARGET" refId="21"/>  
+  </message>  
+  <message id="22" operation="updateDBDelete(waut.bean.FileInfoBean):boolean" asynchronous="false">    
+    <end type="SOURCE" refId="4"/>    
+    <end type="TARGET" refId="23"/>  
+  </message>
+</sequence-diagram>

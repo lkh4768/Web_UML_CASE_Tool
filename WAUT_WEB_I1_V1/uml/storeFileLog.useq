@@ -1,0 +1,52 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<sequence-diagram version="1.1.9" icons="true">  
+  <object id="1" language="java" name="waut.controler.LogInfoControlerForward" project="WAUT_WEB_I1_V1" 
+    file="/WAUT_WEB_I1_V1/src/waut/controler/LogInfoControlerForward.java" binary="false" 
+    label="logInfoControlerForward" type="class" autoSize="true">    
+    <position height="-1" width="-1" x="155" y="0"/>    
+    <execution id="2">      
+      <position height="189" width="165" x="5" y="99"/>    
+    </execution>  
+  </object>  
+  <object id="5" language="java" name="waut.controler.LogInfoControler" project="WAUT_WEB_I1_V1" 
+    file="/WAUT_WEB_I1_V1/src/waut/controler/LogInfoControler.java" binary="false" label="logInfoControler" type="class" 
+    autoSize="true">    
+    <position height="-1" width="-1" x="286" y="0"/>    
+    <execution id="4">      
+      <position height="147" width="118" x="174" y="120"/>    
+    </execution>  
+  </object>  
+  <object id="12" language="java" name="waut.controler.FileControler" project="WAUT_WEB_I1_V1" 
+    file="/WAUT_WEB_I1_V1/src/waut/controler/FileControler.java" binary="false" label="fc" type="class" autoSize="true">    
+    <position height="0" width="0" x="0" y="0"/>    
+    <execution id="7">      
+      <position height="21" width="0" x="0" y="141"/>    
+    </execution>    
+    <execution id="9">      
+      <position height="21" width="0" x="0" y="183"/>    
+    </execution>    
+    <execution id="11">      
+      <position height="21" width="0" x="0" y="225"/>    
+    </execution>  
+  </object>  
+  <message id="3" 
+    operation="saveLog(java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String):waut.bean.FileInfoBean" 
+    asynchronous="false">    
+    <end type="SOURCE" refId="2"/>    
+    <end type="TARGET" refId="4"/>  
+  </message>  
+  <message id="6" operation="FileControler()" asynchronous="false">    
+    <end type="SOURCE" refId="4"/>    
+    <end type="TARGET" refId="7"/>  
+  </message>  
+  <message id="8" operation="readFile(java.lang.String):java.lang.String" asynchronous="false">    
+    <end type="SOURCE" refId="4"/>    
+    <end type="TARGET" refId="9"/>  
+  </message>  
+  <message id="10" 
+    operation="addFile(java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String,boolean):waut.bean.FileInfoBean" 
+    asynchronous="false">    
+    <end type="SOURCE" refId="4"/>    
+    <end type="TARGET" refId="11"/>  
+  </message>
+</sequence-diagram>

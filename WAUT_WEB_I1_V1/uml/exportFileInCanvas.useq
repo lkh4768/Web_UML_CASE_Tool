@@ -1,0 +1,66 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<sequence-diagram version="1.1.9" icons="true">  
+  <object id="1" language="java" name="waut.controler.EditorControlerForward" project="WAUT_WEB_I1_V1" 
+    file="/WAUT_WEB_I1_V1/src/waut/controler/EditorControlerForward.java" binary="false" label="editorControlerForward" 
+    type="class" autoSize="true">    
+    <position height="-1" width="-1" x="192" y="0"/>    
+    <execution id="2">      
+      <position height="273" width="156" x="5" y="99"/>    
+    </execution>  
+  </object>  
+  <object id="5" language="java" name="waut.controler.FileControler" project="WAUT_WEB_I1_V1" 
+    file="/WAUT_WEB_I1_V1/src/waut/controler/FileControler.java" binary="false" label="fileControler" type="class" 
+    autoSize="true">    
+    <position height="-1" width="-1" x="332" y="0"/>    
+    <execution id="4">      
+      <position height="231" width="95" x="165" y="120"/>    
+    </execution>  
+  </object>  
+  <object id="16" language="java" name="java.io.PrintWriter" project="WAUT_WEB_I1_V1" 
+    file="C:/Program Files/Java/jre1.8.0_45/lib/rt.jar" binary="true" label="writer" type="class" autoSize="true">    
+    <position height="0" width="0" x="0" y="0"/>    
+    <execution id="7">      
+      <position height="21" width="0" x="0" y="141"/>    
+    </execution>    
+    <execution id="9">      
+      <position height="21" width="0" x="0" y="183"/>    
+    </execution>    
+    <execution id="11">      
+      <position height="21" width="0" x="0" y="225"/>    
+    </execution>    
+    <execution id="13">      
+      <position height="21" width="0" x="0" y="267"/>    
+    </execution>  
+  </object>  
+  <object id="17" language="java" name="java.io.PrintStream" project="WAUT_WEB_I1_V1" 
+    file="C:/Program Files/Java/jre1.8.0_45/lib/rt.jar" binary="true" type="class" autoSize="true">    
+    <position height="0" width="0" x="0" y="0"/>    
+    <execution id="15">      
+      <position height="21" width="0" x="0" y="309"/>    
+    </execution>  
+  </object>  
+  <message id="3" operation="storeFile(java.lang.String,java.lang.String,java.lang.String):boolean" asynchronous="false">    
+    <end type="SOURCE" refId="2"/>    
+    <end type="TARGET" refId="4"/>  
+  </message>  
+  <message id="6" operation="PrintWriter(java.lang.String,java.lang.String)" asynchronous="false">    
+    <end type="SOURCE" refId="4"/>    
+    <end type="TARGET" refId="7"/>  
+  </message>  
+  <message id="8" operation="PrintWriter(java.lang.String,java.lang.String)" asynchronous="false">    
+    <end type="SOURCE" refId="4"/>    
+    <end type="TARGET" refId="9"/>  
+  </message>  
+  <message id="10" operation="println(java.lang.String):void" asynchronous="false">    
+    <end type="SOURCE" refId="4"/>    
+    <end type="TARGET" refId="11"/>  
+  </message>  
+  <message id="12" operation="close():void" asynchronous="false">    
+    <end type="SOURCE" refId="4"/>    
+    <end type="TARGET" refId="13"/>  
+  </message>  
+  <message id="14" operation="println(java.lang.String):void" asynchronous="false">    
+    <end type="SOURCE" refId="4"/>    
+    <end type="TARGET" refId="15"/>  
+  </message>
+</sequence-diagram>

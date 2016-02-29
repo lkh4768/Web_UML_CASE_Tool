@@ -1,0 +1,81 @@
+#id-pw-search-container{
+    position: fixed;
+    width: 100%;
+    top: 50px;
+    bottom: 50px;
+    display: block;
+    overflow-x: hidden;
+    overflow-y: auto;
+    background-color: #f9f9fa;
+}
+#logo-mark-img{
+    position: absolute;
+    left: 50%;
+    margin-top: 103.5px;
+    margin-left: -26.5px;
+}
+#id-pw-search-form-container{
+    max-width: 390px;
+    padding: 0px;
+    margin: auto;
+    margin-top: 130px;
+    background-color: #fefefe;
+    border:1px  solid rgba(86,61,124,.2);
+    text-align: center;
+    margin-bottom: 30px;
+}
+#id-pw-search-top-container{
+    padding: 16px;
+    background-color: #108ca4;
+    font-size:20px;
+}
+#id-pw-search-title{
+    position: relative;
+    margin-top: 0px;
+    color:#ffffff;
+    z-index: 1;
+
+}
+.from-group-id-pw-search{
+    margin-top: 33px;
+    margin-right: 10px !important;
+    margin-left: 10px !important;
+}
+.form-horizontal .control-label{
+    text-align: left;
+    padding-left: 40px;
+    padding-right: 0px;
+}
+.id-pw-search-label{
+    color: #878787;
+}
+.form-control{
+    border-radius: 0px;
+    width: 93%;
+}
+.col-sm-8{
+    padding-left: 0px;
+}
+.message {
+    color: #e73828;
+    font-size: 11px;
+    text-align: left;
+    padding-left: 50px;
+}
+.id-pw-search-btn{
+    margin: 16px;
+    margin-bottom: 30px;
+    margin-top: 35px;
+    margin-left: 22px;
+    padding: 4px;
+    padding-left: 2px;
+    padding-right: 2px;
+    width : 110px;
+    font-size: 16px;
+    background-color: #108ca4;
+    border-color: #108ca4;
+    border-radius: 0px;
+}
+#pw-search-btn{
+    width : 140px;
+}

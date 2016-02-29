@@ -1,0 +1,47 @@
+#folder-tree-container {
+	padding-left: 15px;
+	padding-right: 15px;
+}
+
+#trash-container-top-border {
+	width: 100%;
+	height: 20px;
+	border-top: 2px solid #c5c4c4;
+}
+
+#trash-container {
+	position: relation;
+	padding: 0px 15px 20px 15px;
+	bottom: 0px;
+	width: 100%;
+}
+
+#move-trash-btn{
+	width: 100px;
+	float: left;
+}
+
+#empty-trash-btn{
+	float: right;
+	padding-right: 0px;
+}
+
+.project-explorer-btn {
+	height: 25px;
+	display: block;
+	vertical-align: middle;
+	text-decoration: none !important;
+	margin-bottom: 10px;
+}
+
+.project-explorer-btn-img {
+	height: 25px;
+	padding-right: 10px;
+}
+
+.project-explorer-btn-span {
+	display: inline-block;
+	line-height: 25px;
+	vertical-align: middle;
+	color: #5a5b5b;
+}

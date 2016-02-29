@@ -1,0 +1,28 @@
+#properties-container {
+	height: 100%;
+	background-color: #F9F9FA;
+}
+
+.properties-group {
+	padding: 5px;
+}
+
+.row-xs-6 {
+	overflow-y: auto;
+	border-bottom: 1px solid #e7e6e6;
+}
+
+.attr-input-group, .met-input-group {
+	margin-bottom: 3px;
+}
+
+.properties-tab-item>a {
+	padding-top: 5px !important;
+	padding-bottom: 5px !important;
+	border-radius: 0px !important;
+	margin: 0px !important;
+}
+
+.diagramProperties-group>input {
+	width: 100%;
+}

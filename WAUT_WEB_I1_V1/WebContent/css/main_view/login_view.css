@@ -1,0 +1,80 @@
+#login-container{
+    position: fixed;
+    width: 100%;
+    top: 50px;
+    bottom: 50px;
+    display: block;
+    overflow-x: hidden;
+    overflow-y: auto;
+    background-color: #f9f9fa;
+}
+#logo-mark-img-login{
+    position: absolute;
+    left: 50%;
+    margin-top: 103.5px;
+    margin-left: -26.5px;
+}
+#login-form-container{
+    max-width: 390px;
+    padding: 0px;
+    margin: auto;
+    margin-top: 130px;
+    background-color: #fefefe;
+    border:1px  solid rgba(86,61,124,.2);
+    text-align: center;
+    margin-bottom: 30px;
+}
+#login-top-container{
+    padding: 16px;
+    background-color: #108ca4;
+    font-size:20px;
+}
+#login-title{
+    position: relative;
+    margin-top: 0px;
+    color:#ffffff;
+    z-index: 1;
+}
+.from-group-login{
+    margin-top:20px;
+    margin-right: 10px !important;
+    margin-left: 10px !important;
+}
+.form-group-id {
+    padding-top: 13px;
+}
+.form-horizontal .control-label{
+    text-align: left;
+    padding-left: 40px;
+    padding-right: 0px;
+}
+.login-label{
+    color: #878787;
+}
+.form-control{
+    border-radius: 0px;
+    width: 93%;
+}
+.col-sm-8{
+    padding-left: 0px;
+}
+.error {
+    color: #e73828;
+    font-size: 11px;
+    text-align: left;
+    padding-left: 50px;
+}
+#id-pw-search-contanier {
+    color : #aaaaa9;
+    padding-top: 18px;
+}
+#login-btn{
+    margin: 16px;
+    margin-bottom: 25px;
+    padding: 4px;
+    width : 80px;
+    font-size: 16px;
+    background-color: #108ca4;
+    border-color: #108ca4;
+    border-radius: 0px;
+}

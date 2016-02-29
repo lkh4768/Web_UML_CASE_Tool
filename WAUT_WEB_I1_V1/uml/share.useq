@@ -1,0 +1,115 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<sequence-diagram version="1.1.9" icons="true">  
+  <object id="1" language="java" name="waut.controler.ShareControlerForward" project="WAUT_WEB_I1_V1" 
+    file="/WAUT_WEB_I1_V1/src/waut/controler/ShareControlerForward.java" binary="false" label="shareControlerForward" 
+    type="class" autoSize="true">    
+    <position height="-1" width="-1" x="202" y="0"/>    
+    <execution id="2">      
+      <position height="63" width="157" x="5" y="99"/>    
+    </execution>    
+    <execution id="5">      
+      <position height="63" width="157" x="5" y="182"/>    
+    </execution>    
+    <execution id="8">      
+      <position height="63" width="157" x="5" y="262"/>    
+    </execution>    
+    <execution id="11">      
+      <position height="105" width="157" x="5" y="348"/>    
+    </execution>    
+    <execution id="14">      
+      <position height="293" width="157" x="5" y="470"/>    
+    </execution>  
+  </object>  
+  <object id="17" language="java" name="waut.bean.ShareInfoBean" project="WAUT_WEB_I1_V1" 
+    file="/WAUT_WEB_I1_V1/src/waut/bean/ShareInfoBean.java" binary="false" label="shareInfoBean" type="class" 
+    autoSize="true">    
+    <position height="-1" width="-1" x="322" y="0"/>    
+    <execution id="4">      
+      <position height="21" width="107" x="166" y="120"/>    
+    </execution>    
+    <execution id="7">      
+      <position height="21" width="107" x="166" y="203"/>    
+    </execution>    
+    <execution id="10">      
+      <position height="21" width="107" x="166" y="283"/>    
+    </execution>    
+    <execution id="18">      
+      <position height="21" width="0" x="0" y="616"/>    
+    </execution>    
+    <execution id="19">      
+      <position height="21" width="0" x="0" y="658"/>    
+    </execution>  
+  </object>  
+  <object id="20" language="java" name="waut.controler.ShareControler" project="WAUT_WEB_I1_V1" 
+    file="/WAUT_WEB_I1_V1/src/waut/controler/ShareControler.java" binary="false" label="shareControler" type="class" 
+    autoSize="true">    
+    <position height="-1" width="-1" x="383" y="0"/>    
+    <execution id="13">      
+      <position height="63" width="110" x="277" y="369"/>    
+    </execution>    
+    <execution id="16">      
+      <position height="251" width="110" x="277" y="491"/>    
+    </execution>    
+    <execution id="24">      
+      <position height="21" width="0" x="0" y="533"/>    
+    </execution>    
+    <execution id="26">      
+      <position height="21" width="0" x="0" y="585"/>    
+    </execution>  
+  </object>  
+  <object id="31" language="java" name="waut.dao.ShareInfoDAO" project="WAUT_WEB_I1_V1" 
+    file="/WAUT_WEB_I1_V1/src/waut/dao/ShareInfoDAO.java" binary="false" label="shareInfoDAO" type="class" 
+    autoSize="true">    
+    <position height="0" width="0" x="0" y="0"/>    
+    <execution id="22">      
+      <position height="21" width="0" x="0" y="390"/>    
+    </execution>    
+    <execution id="30">      
+      <position height="21" width="0" x="0" y="700"/>    
+    </execution>  
+  </object>  
+  <message id="3" operation="ShareInfoBean()" asynchronous="false">    
+    <end type="SOURCE" refId="2"/>    
+    <end type="TARGET" refId="4"/>  
+  </message>  
+  <message id="6" operation="setShare_shared_root_id(java.lang.String):void" asynchronous="false">    
+    <end type="SOURCE" refId="5"/>    
+    <end type="TARGET" refId="7"/>  
+  </message>  
+  <message id="9" operation="setShare_member_id(java.lang.String):void" asynchronous="false">    
+    <end type="SOURCE" refId="8"/>    
+    <end type="TARGET" refId="10"/>  
+  </message>  
+  <message id="12" operation="confirmID(waut.bean.ShareInfoBean):boolean" asynchronous="false">    
+    <end type="SOURCE" refId="11"/>    
+    <end type="TARGET" refId="13"/>  
+  </message>  
+  <message id="15" operation="addSharedMember(waut.bean.ShareInfoBean):waut.bean.ShareInfoBean" asynchronous="false">    
+    <end type="SOURCE" refId="14"/>    
+    <end type="TARGET" refId="16"/>  
+  </message>  
+  <message id="21" operation="confirmID(waut.bean.ShareInfoBean):boolean" asynchronous="false">    
+    <end type="SOURCE" refId="13"/>    
+    <end type="TARGET" refId="22"/>  
+  </message>  
+  <message id="23" operation="checkOverlappingID(waut.bean.ShareInfoBean):boolean" asynchronous="false">    
+    <end type="SOURCE" refId="16"/>    
+    <end type="TARGET" refId="24"/>  
+  </message>  
+  <message id="25" operation="enSharedFolder(java.lang.String,java.lang.String):void" asynchronous="false">    
+    <end type="SOURCE" refId="16"/>    
+    <end type="TARGET" refId="26"/>  
+  </message>  
+  <message id="27" operation="getShare_shared_root_id():java.lang.String" asynchronous="false">    
+    <end type="SOURCE" refId="16"/>    
+    <end type="TARGET" refId="18"/>  
+  </message>  
+  <message id="28" operation="getShare_shared_root_id():java.lang.String" asynchronous="false">    
+    <end type="SOURCE" refId="16"/>    
+    <end type="TARGET" refId="19"/>  
+  </message>  
+  <message id="29" operation="insertDB(waut.bean.ShareInfoBean):waut.bean.ShareInfoBean" asynchronous="false">    
+    <end type="SOURCE" refId="16"/>    
+    <end type="TARGET" refId="30"/>  
+  </message>
+</sequence-diagram>

@@ -1,0 +1,199 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<sequence-diagram version="1.1.9" icons="true">  
+  <object id="1" language="java" name="waut.controler.ProjectControlerForward" project="WAUT_WEB_I1_V1" 
+    file="/WAUT_WEB_I1_V1/src/waut/controler/ProjectControlerForward.java" binary="false" 
+    label="projectControlerForward" type="class" autoSize="true">    
+    <position height="-1" width="-1" x="173" y="0"/>    
+    <execution id="2">      
+      <position height="105" width="164" x="5" y="99"/>    
+    </execution>    
+    <execution id="5">      
+      <position height="105" width="164" x="5" y="220"/>    
+    </execution>    
+    <execution id="8">      
+      <position height="315" width="164" x="5" y="346"/>    
+    </execution>    
+    <execution id="11">      
+      <position height="315" width="164" x="5" y="688"/>    
+    </execution>  
+  </object>  
+  <object id="14" language="java" name="waut.controler.FolderControler" project="WAUT_WEB_I1_V1" 
+    file="/WAUT_WEB_I1_V1/src/waut/controler/FolderControler.java" binary="false" label="folderControler" type="class" 
+    autoSize="true">    
+    <position height="-1" width="-1" x="288" y="0"/>    
+    <execution id="4">      
+      <position height="63" width="111" x="173" y="120"/>    
+    </execution>  
+  </object>  
+  <object id="17" language="java" name="waut.dao.FolderInfoDAO" project="WAUT_WEB_I1_V1" 
+    file="/WAUT_WEB_I1_V1/src/waut/dao/FolderInfoDAO.java" binary="false" label="folderInfoDAO" type="class" 
+    autoSize="true">    
+    <position height="0" width="0" x="0" y="0"/>    
+    <execution id="16">      
+      <position height="21" width="0" x="0" y="141"/>    
+    </execution>  
+  </object>  
+  <object id="18" language="java" name="waut.controler.FileControler" project="WAUT_WEB_I1_V1" 
+    file="/WAUT_WEB_I1_V1/src/waut/controler/FileControler.java" binary="false" label="fileControler" type="class" 
+    autoSize="true">    
+    <position height="-1" width="-1" x="479" y="0"/>    
+    <execution id="7">      
+      <position height="63" width="95" x="396" y="241"/>    
+    </execution>  
+  </object>  
+  <object id="21" language="java" name="waut.dao.FileInfoDAO" project="WAUT_WEB_I1_V1" 
+    file="/WAUT_WEB_I1_V1/src/waut/dao/FileInfoDAO.java" binary="false" label="fileInfoDAO" type="class" autoSize="true">    
+    <position height="0" width="0" x="0" y="0"/>    
+    <execution id="20">      
+      <position height="21" width="0" x="0" y="262"/>    
+    </execution>  
+  </object>  
+  <object id="22" language="java" name="waut.controler.ShareControler" project="WAUT_WEB_I1_V1" 
+    file="/WAUT_WEB_I1_V1/src/waut/controler/ShareControler.java" binary="false" label="shareControler" type="class" 
+    autoSize="true">    
+    <position height="-1" width="-1" x="527" y="0"/>    
+    <execution id="10">      
+      <position height="273" width="110" x="587" y="367"/>    
+    </execution>    
+    <execution id="13">      
+      <position height="273" width="110" x="587" y="709"/>    
+    </execution>  
+  </object>  
+  <object id="47" language="java" name="java.util.ArrayList" project="WAUT_WEB_I1_V1" 
+    file="C:/Program Files/Java/jre1.8.0_45/lib/rt.jar" binary="true" label="sharedFiles" type="class" autoSize="true">    
+    <position height="0" width="0" x="0" y="0"/>    
+    <execution id="36">      
+      <position height="21" width="0" x="0" y="730"/>    
+    </execution>    
+    <execution id="42">      
+      <position height="21" width="0" x="0" y="856"/>    
+    </execution>  
+  </object>  
+  <object id="48" language="java" name="java.util.ArrayList" project="WAUT_WEB_I1_V1" 
+    file="C:/Program Files/Java/jre1.8.0_45/lib/rt.jar" binary="true" label="sharedFolders" type="class" autoSize="true">    
+    <position height="0" width="0" x="0" y="0"/>    
+    <execution id="24">      
+      <position height="21" width="0" x="0" y="388"/>    
+    </execution>    
+    <execution id="30">      
+      <position height="21" width="0" x="0" y="514"/>    
+    </execution>  
+  </object>  
+  <object id="49" language="java" name="waut.dao.ShareInfoDAO" project="WAUT_WEB_I1_V1" 
+    file="/WAUT_WEB_I1_V1/src/waut/dao/ShareInfoDAO.java" binary="false" label="shareInfoDAO" type="class" 
+    autoSize="true">    
+    <position height="0" width="0" x="0" y="0"/>    
+    <execution id="26">      
+      <position height="21" width="0" x="0" y="430"/>    
+    </execution>    
+    <execution id="32">      
+      <position height="21" width="0" x="0" y="556"/>    
+    </execution>    
+    <execution id="38">      
+      <position height="21" width="0" x="0" y="772"/>    
+    </execution>    
+    <execution id="44">      
+      <position height="21" width="0" x="0" y="898"/>    
+    </execution>  
+  </object>  
+  <object id="50" language="java" name="java.util.ArrayList" project="WAUT_WEB_I1_V1" 
+    file="C:/Program Files/Java/jre1.8.0_45/lib/rt.jar" binary="true" label="sharedRootIDs" type="class" autoSize="true">    
+    <position height="0" width="0" x="0" y="0"/>    
+    <execution id="28">      
+      <position height="21" width="0" x="0" y="472"/>    
+    </execution>    
+    <execution id="34">      
+      <position height="21" width="0" x="0" y="598"/>    
+    </execution>    
+    <execution id="40">      
+      <position height="21" width="0" x="0" y="814"/>    
+    </execution>    
+    <execution id="46">      
+      <position height="21" width="0" x="0" y="940"/>    
+    </execution>  
+  </object>  
+  <message id="3" operation="searchFolder(java.lang.String,java.lang.String):java.util.ArrayList&lt;FolderInfoBean&gt;" 
+    asynchronous="false">    
+    <end type="SOURCE" refId="2"/>    
+    <end type="TARGET" refId="4"/>  
+  </message>  
+  <message id="6" operation="searchFile(java.lang.String,java.lang.String):java.util.ArrayList&lt;FileInfoBean&gt;" 
+    asynchronous="false">    
+    <end type="SOURCE" refId="5"/>    
+    <end type="TARGET" refId="7"/>  
+  </message>  
+  <message id="9" 
+    operation="searchSharedFolder(java.lang.String,java.lang.String):java.util.ArrayList&lt;FolderInfoBean&gt;" 
+    asynchronous="false">    
+    <end type="SOURCE" refId="8"/>    
+    <end type="TARGET" refId="10"/>  
+  </message>  
+  <message id="12" 
+    operation="searchSharedFile(java.lang.String,java.lang.String):java.util.ArrayList&lt;FileInfoBean&gt;" 
+    asynchronous="false">    
+    <end type="SOURCE" refId="11"/>    
+    <end type="TARGET" refId="13"/>  
+  </message>  
+  <message id="15" operation="searchFolder(java.lang.String,java.lang.String):java.util.ArrayList&lt;FolderInfoBean&gt;" 
+    asynchronous="false">    
+    <end type="SOURCE" refId="4"/>    
+    <end type="TARGET" refId="16"/>  
+  </message>  
+  <message id="19" operation="searchFile(java.lang.String,java.lang.String):java.util.ArrayList&lt;FileInfoBean&gt;" 
+    asynchronous="false">    
+    <end type="SOURCE" refId="7"/>    
+    <end type="TARGET" refId="20"/>  
+  </message>  
+  <message id="23" operation="ArrayList()" asynchronous="false">    
+    <end type="SOURCE" refId="10"/>    
+    <end type="TARGET" refId="24"/>  
+  </message>  
+  <message id="25" operation="getSharedRootID(java.lang.String):java.util.ArrayList&lt;String&gt;" asynchronous="false">    
+    <end type="SOURCE" refId="10"/>    
+    <end type="TARGET" refId="26"/>  
+  </message>  
+  <message id="27" operation="size():int" asynchronous="false">    
+    <end type="SOURCE" refId="10"/>    
+    <end type="TARGET" refId="28"/>  
+  </message>  
+  <message id="29" operation="addAll(java.util.Collection&lt;? extends E&gt;):boolean" asynchronous="false">    
+    <end type="SOURCE" refId="10"/>    
+    <end type="TARGET" refId="30"/>  
+  </message>  
+  <message id="31" 
+    operation="getSharedFolderByRoot(java.lang.String,java.lang.String):java.util.ArrayList&lt;FolderInfoBean&gt;" 
+    asynchronous="false">    
+    <end type="SOURCE" refId="10"/>    
+    <end type="TARGET" refId="32"/>  
+  </message>  
+  <message id="33" operation="get(int):E" asynchronous="false">    
+    <end type="SOURCE" refId="10"/>    
+    <end type="TARGET" refId="34"/>  
+  </message>  
+  <message id="35" operation="ArrayList()" asynchronous="false">    
+    <end type="SOURCE" refId="13"/>    
+    <end type="TARGET" refId="36"/>  
+  </message>  
+  <message id="37" operation="getSharedRootID(java.lang.String):java.util.ArrayList&lt;String&gt;" asynchronous="false">    
+    <end type="SOURCE" refId="13"/>    
+    <end type="TARGET" refId="38"/>  
+  </message>  
+  <message id="39" operation="size():int" asynchronous="false">    
+    <end type="SOURCE" refId="13"/>    
+    <end type="TARGET" refId="40"/>  
+  </message>  
+  <message id="41" operation="addAll(java.util.Collection&lt;? extends E&gt;):boolean" asynchronous="false">    
+    <end type="SOURCE" refId="13"/>    
+    <end type="TARGET" refId="42"/>  
+  </message>  
+  <message id="43" 
+    operation="getSharedFileByRoot(java.lang.String,java.lang.String):java.util.ArrayList&lt;FileInfoBean&gt;" 
+    asynchronous="false">    
+    <end type="SOURCE" refId="13"/>    
+    <end type="TARGET" refId="44"/>  
+  </message>  
+  <message id="45" operation="get(int):E" asynchronous="false">    
+    <end type="SOURCE" refId="13"/>    
+    <end type="TARGET" refId="46"/>  
+  </message>
+</sequence-diagram>

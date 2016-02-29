@@ -1,0 +1,115 @@
+#join-container {
+	position: fixed;
+	width: 100%;
+	top: 50px;
+	bottom: 50px;
+	display: block;
+	overflow-x: hidden;
+	overflow-y: auto;
+	background-color: #f9f9fa;
+}
+
+#logo-mark-img-join {
+	position: absolute;
+	left: 50%;
+	margin-top: -28px;
+	margin-left: -26.5px;
+}
+
+#join-form-container {
+	max-width: 500px;
+	padding: 0px;
+	margin: auto;
+	margin-top: 130px;
+	background-color: #fefefe;
+	border: 1px solid rgba(86, 61, 124, .2);
+	text-align: center;
+	margin-bottom: 30px;
+}
+
+#join-top-container {
+	padding: 16px;
+	background-color: #108ca4;
+	font-size: 20px;
+}
+
+#join-title {
+	position: relative;
+	margin-top: 0px;
+	color: #ffffff;
+	z-index: 1;
+}
+
+.from-group-join {
+	margin-top: 15px;
+	margin-right: 10px !important;
+	margin-left: 10px !important;
+}
+
+.form-group {
+	margin-bottom: 0px;
+}
+
+.join-label {
+	color: #878787;
+}
+
+.form-horizontal .control-label {
+	text-align: left;
+	padding-left: 40px;
+	padding-right: 0px;
+}
+
+.form-control {
+	border-radius: 0px;
+}
+
+.col-sm-8 {
+	padding-left: 0px;
+	width: 54%;
+}
+
+.col-sm-3 {
+	padding-left: 0px;
+	padding-right: 0px;
+}
+
+.check-value-img {
+	padding-top: 5px;
+	padding-right: 10px;
+}
+
+.message {
+	font-size: 11px;
+	text-align: right;
+	padding-right: 90px;
+}
+
+#pass-number-btn-container {
+	margin-right: 18px;
+}
+
+#passNumBtn {
+	margin-top: 3px;
+	margin-right: 20px;
+	margin-left: 4px;
+	padding: 3px;
+	font-size: 14px;
+	background-color: #cccccc;
+	border-color: #cccccc;
+	border-radius: 0px;
+	font-size: 14px;
+}
+
+#joinBtn {
+	margin-bottom: 28px;
+	margin-top: 28px;
+	padding: 4px;
+	padding-left: 2px;
+	padding-right: 2px;
+	width: 80px;
+	font-size: 16px;
+	background-color: #108ca4;
+	border-color: #108ca4;
+	border-radius: 0px;
+}

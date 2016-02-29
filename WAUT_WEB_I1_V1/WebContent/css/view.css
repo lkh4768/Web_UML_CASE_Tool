@@ -1,0 +1,28 @@
+html, body {
+	height: 100%;
+	overflow: hidden;
+}
+
+/* 높이 100% */
+.fill-height {
+	height: 100%;
+}
+
+/* padding 0 */
+.no-padding {
+	padding: 0px;
+}
+
+.row {
+	margin: 0px;
+	padding: 0px;
+}
+
+#main-container {
+	position: absolute;
+	min-height: 100%;
+	width: 100%;
+	height: 100%;
+	margin: 0px;
+	padding: 0px;
+}

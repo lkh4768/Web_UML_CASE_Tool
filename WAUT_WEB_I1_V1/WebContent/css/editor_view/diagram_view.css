@@ -1,0 +1,75 @@
+/* 다이어그램 슬라이드 css */
+#diagram-sidebar {
+	padding-right: 0px;
+	padding-left: 0px;
+	margin-left: 0px;
+	margin-right: 0px;
+	background-color: #F9F9FA;
+	border: 1px solid #e7e6e6;
+	border-top: 0;
+	overflow: auto;
+}
+/* 각 다이어그램 글씨색 */
+.diagram-item-title-collapse {
+	color: #8b8b8b;
+	display: block;
+	width: 100%;
+}
+
+/* 각 다이어그램 메뉴 버튼 css */
+.diagram-panel-group {
+	margin: 0px;
+	border-bottom: 1px solid #e7e6e6;
+}
+
+.diagram-panel {
+	margin: 0px !important;
+	margin-bottom: 1px !important;
+	background-color: #F9F9FA;
+}
+
+.diagram-item-panel-body {
+	margin: 0px;
+	padding: 0px;
+}
+
+.diagram-item-panel-body>div {
+	padding: 5px;
+	text-align: center;
+	background-color: #ffffff;
+}
+
+.panel-heading {
+	padding: 0px;
+}
+
+.diagram-item-title-row {
+	border-left: 8px solid #7b787b;
+}
+
+.diagram-item-title-center, .diagram-item-title-right {
+	padding: 0px;
+}
+
+.diagram-item-title-center, .diagram-item-title-right {
+	padding: 6px;
+}
+
+.diagram-item-title-center {
+	padding-left: 15px;
+}
+
+.diagram-item {
+	height: 100px;
+	padding: 0px;
+}
+
+.diagram-item > img {
+	max-width: 40px;
+}
+
+.vertical-helper {
+	display: inline-block;
+	height: 100%;
+	vertical-align: middle;
+}
